@@ -12,4 +12,4 @@ start:    mov       rax, 0x02000004         ; system call for write
           syscall                           ; invoke operating system to exit
 
           section   .data
-message:  db        "alexa is whack", 10      ; note the newline at the end
+message:  db        "最近怎么样？", 10      ; note the newline at the end
